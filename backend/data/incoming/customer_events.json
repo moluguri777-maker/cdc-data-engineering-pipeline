@@ -1,0 +1,989 @@
+[
+    {
+        "event_id": "EVT000003",
+        "customer_id": "CUST0001",
+        "operation": "UPDATE",
+        "source_version": 3,
+        "event_timestamp": "2026-11-15T10:00:03",
+        "data": {
+            "customer_name": "Customer 1",
+            "email": "customer1@example.com",
+            "city": "Chennai"
+        }
+    },
+    {
+        "event_id": "EVT000015",
+        "customer_id": "CUST0005",
+        "operation": "UPDATE",
+        "source_version": 3,
+        "event_timestamp": "2026-11-15T10:00:15",
+        "data": {
+            "customer_name": "Customer 5",
+            "email": "customer5@example.com",
+            "city": "Hyderabad"
+        }
+    },
+    {
+        "event_id": "EVT000013",
+        "customer_id": "CUST0005",
+        "operation": "INSERT",
+        "source_version": 1,
+        "event_timestamp": "2026-11-15T10:00:13",
+        "data": {
+            "customer_name": "Customer 5",
+            "email": "customer5@example.com",
+            "city": "Bangalore"
+        }
+    },
+    {
+        "event_id": "EVT000024",
+        "customer_id": "CUST0008",
+        "operation": "UPDATE",
+        "source_version": 2,
+        "event_timestamp": "2026-11-15T10:00:24",
+        "data": {
+            "customer_name": "Customer 8",
+            "email": "customer8@example.com",
+            "city": "Mumbai"
+        }
+    },
+    {
+        "event_id": "EVT000009",
+        "customer_id": "CUST0003",
+        "operation": "UPDATE",
+        "source_version": 3,
+        "event_timestamp": "2026-11-15T10:00:09",
+        "data": {
+            "customer_name": "Customer 3",
+            "email": "customer3@example.com",
+            "city": "Mumbai"
+        }
+    },
+    {
+        "event_id": "EVT000057",
+        "customer_id": "CUST0018",
+        "operation": "UPDATE",
+        "source_version": 3,
+        "event_timestamp": "2026-11-15T10:00:57",
+        "data": {
+            "customer_name": "Customer 18",
+            "email": "customer18@example.com",
+            "city": "Chennai"
+        }
+    },
+    {
+        "event_id": "EVT000037",
+        "customer_id": "CUST0012",
+        "operation": "UPDATE",
+        "source_version": 2,
+        "event_timestamp": "2026-11-15T10:00:37",
+        "data": {
+            "customer_name": "Customer 12",
+            "email": "customer12@example.com",
+            "city": "Chennai"
+        }
+    },
+    {
+        "event_id": "EVT000027",
+        "customer_id": "CUST0009",
+        "operation": "UPDATE",
+        "source_version": 2,
+        "event_timestamp": "2026-11-15T10:00:27",
+        "data": {
+            "customer_name": "Customer 9",
+            "email": "customer9@example.com",
+            "city": "Bangalore"
+        }
+    },
+    {
+        "event_id": "EVT000048",
+        "customer_id": "CUST0015",
+        "operation": "DELETE",
+        "source_version": 4,
+        "event_timestamp": "2026-11-15T10:00:48",
+        "data": {
+            "customer_name": "Customer 15",
+            "email": "customer15@example.com",
+            "city": "Hyderabad"
+        }
+    },
+    {
+        "event_id": "EVT000014",
+        "customer_id": "CUST0005",
+        "operation": "UPDATE",
+        "source_version": 2,
+        "event_timestamp": "2026-11-15T10:00:14",
+        "data": {
+            "customer_name": "Customer 5",
+            "email": "customer5@example.com",
+            "city": "Bangalore"
+        }
+    },
+    {
+        "event_id": "EVT000002",
+        "customer_id": "CUST0001",
+        "operation": "UPDATE",
+        "source_version": 2,
+        "event_timestamp": "2026-11-15T10:00:02",
+        "data": {
+            "customer_name": "Customer 1",
+            "email": "customer1@example.com",
+            "city": "Hyderabad"
+        }
+    },
+    {
+        "event_id": "EVT000016",
+        "customer_id": "CUST0005",
+        "operation": "DELETE",
+        "source_version": 4,
+        "event_timestamp": "2026-11-15T10:00:16",
+        "data": {
+            "customer_name": "Customer 5",
+            "email": "customer5@example.com",
+            "city": "Hyderabad"
+        }
+    },
+    {
+        "event_id": "EVT000038",
+        "customer_id": "CUST0012",
+        "operation": "UPDATE",
+        "source_version": 3,
+        "event_timestamp": "2026-11-15T10:00:38",
+        "data": {
+            "customer_name": "Customer 12",
+            "email": "customer12@example.com",
+            "city": "Hyderabad"
+        }
+    },
+    {
+        "event_id": "EVT000040",
+        "customer_id": "CUST0013",
+        "operation": "UPDATE",
+        "source_version": 2,
+        "event_timestamp": "2026-11-15T10:00:40",
+        "data": {
+            "customer_name": "Customer 13",
+            "email": "customer13@example.com",
+            "city": "Hyderabad"
+        }
+    },
+    {
+        "event_id": "EVT000046",
+        "customer_id": "CUST0015",
+        "operation": "UPDATE",
+        "source_version": 2,
+        "event_timestamp": "2026-11-15T10:00:46",
+        "data": {
+            "customer_name": "Customer 15",
+            "email": "customer15@example.com",
+            "city": "Hyderabad"
+        }
+    },
+    {
+        "event_id": "EVT000033",
+        "customer_id": "CUST0011",
+        "operation": "INSERT",
+        "source_version": 1,
+        "event_timestamp": "2026-11-15T10:00:33",
+        "data": {
+            "customer_name": "Customer 11",
+            "email": "customer11@example.com",
+            "city": "Mumbai"
+        }
+    },
+    {
+        "event_id": "EVT000023",
+        "customer_id": "CUST0008",
+        "operation": "INSERT",
+        "source_version": 1,
+        "event_timestamp": "2026-11-15T10:00:23",
+        "data": {
+            "customer_name": "Customer 8",
+            "email": "customer8@example.com",
+            "city": "Bangalore"
+        }
+    },
+    {
+        "event_id": "EVT000066",
+        "customer_id": "CUST0021",
+        "operation": "UPDATE",
+        "source_version": 2,
+        "event_timestamp": "2026-11-15T10:01:06",
+        "data": {
+            "customer_name": "Customer 21",
+            "email": "customer21@example.com",
+            "city": "Bangalore"
+        }
+    },
+    {
+        "event_id": "EVT000012",
+        "customer_id": "CUST0004",
+        "operation": "UPDATE",
+        "source_version": 3,
+        "event_timestamp": "2026-11-15T10:00:12",
+        "data": {
+            "customer_name": "Customer 4",
+            "email": "customer4@example.com",
+            "city": "Hyderabad"
+        }
+    },
+    {
+        "event_id": "EVT000071",
+        "customer_id": "CUST0023",
+        "operation": "INSERT",
+        "source_version": 1,
+        "event_timestamp": "2026-11-15T10:01:11",
+        "data": {
+            "customer_name": "Customer 23",
+            "email": "customer23@example.com",
+            "city": "Bangalore"
+        }
+    },
+    {
+        "event_id": "EVT000007",
+        "customer_id": "CUST0003",
+        "operation": "INSERT",
+        "source_version": 1,
+        "event_timestamp": "2026-11-15T10:00:07",
+        "data": {
+            "customer_name": "Customer 3",
+            "email": "customer3@example.com",
+            "city": "Hyderabad"
+        }
+    },
+    {
+        "event_id": "EVT000020",
+        "customer_id": "CUST0007",
+        "operation": "INSERT",
+        "source_version": 1,
+        "event_timestamp": "2026-11-15T10:00:20",
+        "data": {
+            "customer_name": "Customer 7",
+            "email": "customer7@example.com",
+            "city": "Mumbai"
+        }
+    },
+    {
+        "event_id": "EVT000054",
+        "customer_id": "CUST0017",
+        "operation": "UPDATE",
+        "source_version": 3,
+        "event_timestamp": "2026-11-15T10:00:54",
+        "data": {
+            "customer_name": "Customer 17",
+            "email": "customer17@example.com",
+            "city": "Mumbai"
+        }
+    },
+    {
+        "event_id": "EVT000026",
+        "customer_id": "CUST0009",
+        "operation": "INSERT",
+        "source_version": 1,
+        "event_timestamp": "2026-11-15T10:00:26",
+        "data": {
+            "customer_name": "Customer 9",
+            "email": "customer9@example.com",
+            "city": "Chennai"
+        }
+    },
+    {
+        "event_id": "EVT000058",
+        "customer_id": "CUST0019",
+        "operation": "INSERT",
+        "source_version": 1,
+        "event_timestamp": "2026-11-15T10:00:58",
+        "data": {
+            "customer_name": "Customer 19",
+            "email": "customer19@example.com",
+            "city": "Bangalore"
+        }
+    },
+    {
+        "event_id": "EVT000021",
+        "customer_id": "CUST0007",
+        "operation": "UPDATE",
+        "source_version": 2,
+        "event_timestamp": "2026-11-15T10:00:21",
+        "data": {
+            "customer_name": "Customer 7",
+            "email": "customer7@example.com",
+            "city": "Chennai"
+        }
+    },
+    {
+        "event_id": "EVT000061",
+        "customer_id": "CUST0020",
+        "operation": "INSERT",
+        "source_version": 1,
+        "event_timestamp": "2026-11-15T10:01:01",
+        "data": {
+            "customer_name": "Customer 20",
+            "email": "customer20@example.com",
+            "city": "Bangalore"
+        }
+    },
+    {
+        "event_id": "EVT000031",
+        "customer_id": "CUST0010",
+        "operation": "UPDATE",
+        "source_version": 3,
+        "event_timestamp": "2026-11-15T10:00:31",
+        "data": {
+            "customer_name": "Customer 10",
+            "email": "customer10@example.com",
+            "city": "Hyderabad"
+        }
+    },
+    {
+        "event_id": "EVT000063",
+        "customer_id": "CUST0020",
+        "operation": "UPDATE",
+        "source_version": 3,
+        "event_timestamp": "2026-11-15T10:01:03",
+        "data": {
+            "customer_name": "Customer 20",
+            "email": "customer20@example.com",
+            "city": "Hyderabad"
+        }
+    },
+    {
+        "event_id": "EVT000062",
+        "customer_id": "CUST0020",
+        "operation": "UPDATE",
+        "source_version": 2,
+        "event_timestamp": "2026-11-15T10:01:02",
+        "data": {
+            "customer_name": "Customer 20",
+            "email": "customer20@example.com",
+            "city": "Chennai"
+        }
+    },
+    {
+        "event_id": "EVT_INVALID_001",
+        "customer_id": "CUST0001",
+        "operation": "UPSERT",
+        "source_version": 99,
+        "event_timestamp": "2026-11-15T10:00:00",
+        "data": {}
+    },
+    {
+        "event_id": "EVT000045",
+        "customer_id": "CUST0015",
+        "operation": "INSERT",
+        "source_version": 1,
+        "event_timestamp": "2026-11-15T10:00:45",
+        "data": {
+            "customer_name": "Customer 15",
+            "email": "customer15@example.com",
+            "city": "Bangalore"
+        }
+    },
+    {
+        "event_id": "EVT000043",
+        "customer_id": "CUST0014",
+        "operation": "UPDATE",
+        "source_version": 2,
+        "event_timestamp": "2026-11-15T10:00:43",
+        "data": {
+            "customer_name": "Customer 14",
+            "email": "customer14@example.com",
+            "city": "Chennai"
+        }
+    },
+    {
+        "event_id": "EVT000067",
+        "customer_id": "CUST0021",
+        "operation": "UPDATE",
+        "source_version": 3,
+        "event_timestamp": "2026-11-15T10:01:07",
+        "data": {
+            "customer_name": "Customer 21",
+            "email": "customer21@example.com",
+            "city": "Bangalore"
+        }
+    },
+    {
+        "event_id": "EVT000060",
+        "customer_id": "CUST0019",
+        "operation": "UPDATE",
+        "source_version": 3,
+        "event_timestamp": "2026-11-15T10:01:00",
+        "data": {
+            "customer_name": "Customer 19",
+            "email": "customer19@example.com",
+            "city": "Chennai"
+        }
+    },
+    {
+        "event_id": "EVT000053",
+        "customer_id": "CUST0017",
+        "operation": "UPDATE",
+        "source_version": 2,
+        "event_timestamp": "2026-11-15T10:00:53",
+        "data": {
+            "customer_name": "Customer 17",
+            "email": "customer17@example.com",
+            "city": "Hyderabad"
+        }
+    },
+    {
+        "event_id": "EVT000076",
+        "customer_id": "CUST0024",
+        "operation": "UPDATE",
+        "source_version": 3,
+        "event_timestamp": "2026-11-15T10:01:16",
+        "data": {
+            "customer_name": "Customer 24",
+            "email": "customer24@example.com",
+            "city": "Chennai"
+        }
+    },
+    {
+        "event_id": "EVT000042",
+        "customer_id": "CUST0014",
+        "operation": "INSERT",
+        "source_version": 1,
+        "event_timestamp": "2026-11-15T10:00:42",
+        "data": {
+            "customer_name": "Customer 14",
+            "email": "customer14@example.com",
+            "city": "Hyderabad"
+        }
+    },
+    {
+        "event_id": "EVT000022",
+        "customer_id": "CUST0007",
+        "operation": "UPDATE",
+        "source_version": 3,
+        "event_timestamp": "2026-11-15T10:00:22",
+        "data": {
+            "customer_name": "Customer 7",
+            "email": "customer7@example.com",
+            "city": "Hyderabad"
+        }
+    },
+    {
+        "event_id": "EVT000065",
+        "customer_id": "CUST0021",
+        "operation": "INSERT",
+        "source_version": 1,
+        "event_timestamp": "2026-11-15T10:01:05",
+        "data": {
+            "customer_name": "Customer 21",
+            "email": "customer21@example.com",
+            "city": "Bangalore"
+        }
+    },
+    {
+        "event_id": "EVT000035",
+        "customer_id": "CUST0011",
+        "operation": "UPDATE",
+        "source_version": 3,
+        "event_timestamp": "2026-11-15T10:00:35",
+        "data": {
+            "customer_name": "Customer 11",
+            "email": "customer11@example.com",
+            "city": "Chennai"
+        }
+    },
+    {
+        "event_id": "EVT000077",
+        "customer_id": "CUST0025",
+        "operation": "INSERT",
+        "source_version": 1,
+        "event_timestamp": "2026-11-15T10:01:17",
+        "data": {
+            "customer_name": "Customer 25",
+            "email": "customer25@example.com",
+            "city": "Mumbai"
+        }
+    },
+    {
+        "event_id": "EVT000001",
+        "customer_id": "CUST0001",
+        "operation": "INSERT",
+        "source_version": 1,
+        "event_timestamp": "2026-11-15T10:00:01",
+        "data": {
+            "customer_name": "Customer 1",
+            "email": "customer1@example.com",
+            "city": "Hyderabad"
+        }
+    },
+    {
+        "event_id": "EVT000036",
+        "customer_id": "CUST0012",
+        "operation": "INSERT",
+        "source_version": 1,
+        "event_timestamp": "2026-11-15T10:00:36",
+        "data": {
+            "customer_name": "Customer 12",
+            "email": "customer12@example.com",
+            "city": "Chennai"
+        }
+    },
+    {
+        "event_id": "EVT000017",
+        "customer_id": "CUST0006",
+        "operation": "INSERT",
+        "source_version": 1,
+        "event_timestamp": "2026-11-15T10:00:17",
+        "data": {
+            "customer_name": "Customer 6",
+            "email": "customer6@example.com",
+            "city": "Bangalore"
+        }
+    },
+    {
+        "event_id": "EVT000070",
+        "customer_id": "CUST0022",
+        "operation": "UPDATE",
+        "source_version": 3,
+        "event_timestamp": "2026-11-15T10:01:10",
+        "data": {
+            "customer_name": "Customer 22",
+            "email": "customer22@example.com",
+            "city": "Chennai"
+        }
+    },
+    {
+        "event_id": "EVT000030",
+        "customer_id": "CUST0010",
+        "operation": "UPDATE",
+        "source_version": 2,
+        "event_timestamp": "2026-11-15T10:00:30",
+        "data": {
+            "customer_name": "Customer 10",
+            "email": "customer10@example.com",
+            "city": "Hyderabad"
+        }
+    },
+    {
+        "event_id": "EVT000068",
+        "customer_id": "CUST0022",
+        "operation": "INSERT",
+        "source_version": 1,
+        "event_timestamp": "2026-11-15T10:01:08",
+        "data": {
+            "customer_name": "Customer 22",
+            "email": "customer22@example.com",
+            "city": "Mumbai"
+        }
+    },
+    {
+        "event_id": "EVT000050",
+        "customer_id": "CUST0016",
+        "operation": "UPDATE",
+        "source_version": 2,
+        "event_timestamp": "2026-11-15T10:00:50",
+        "data": {
+            "customer_name": "Customer 16",
+            "email": "customer16@example.com",
+            "city": "Chennai"
+        }
+    },
+    {
+        "event_id": "EVT000025",
+        "customer_id": "CUST0008",
+        "operation": "UPDATE",
+        "source_version": 3,
+        "event_timestamp": "2026-11-15T10:00:25",
+        "data": {
+            "customer_name": "Customer 8",
+            "email": "customer8@example.com",
+            "city": "Chennai"
+        }
+    },
+    {
+        "event_id": "EVT000005",
+        "customer_id": "CUST0002",
+        "operation": "UPDATE",
+        "source_version": 2,
+        "event_timestamp": "2026-11-15T10:00:05",
+        "data": {
+            "customer_name": "Customer 2",
+            "email": "customer2@example.com",
+            "city": "Bangalore"
+        }
+    },
+    {
+        "event_id": "EVT000039",
+        "customer_id": "CUST0013",
+        "operation": "INSERT",
+        "source_version": 1,
+        "event_timestamp": "2026-11-15T10:00:39",
+        "data": {
+            "customer_name": "Customer 13",
+            "email": "customer13@example.com",
+            "city": "Mumbai"
+        }
+    },
+    {
+        "event_id": "EVT000080",
+        "customer_id": "CUST0025",
+        "operation": "DELETE",
+        "source_version": 4,
+        "event_timestamp": "2026-11-15T10:01:20",
+        "data": {
+            "customer_name": "Customer 25",
+            "email": "customer25@example.com",
+            "city": "Hyderabad"
+        }
+    },
+    {
+        "event_id": "EVT000044",
+        "customer_id": "CUST0014",
+        "operation": "UPDATE",
+        "source_version": 3,
+        "event_timestamp": "2026-11-15T10:00:44",
+        "data": {
+            "customer_name": "Customer 14",
+            "email": "customer14@example.com",
+            "city": "Chennai"
+        }
+    },
+    {
+        "event_id": "EVT000078",
+        "customer_id": "CUST0025",
+        "operation": "UPDATE",
+        "source_version": 2,
+        "event_timestamp": "2026-11-15T10:01:18",
+        "data": {
+            "customer_name": "Customer 25",
+            "email": "customer25@example.com",
+            "city": "Chennai"
+        }
+    },
+    {
+        "event_id": "EVT000011",
+        "customer_id": "CUST0004",
+        "operation": "UPDATE",
+        "source_version": 2,
+        "event_timestamp": "2026-11-15T10:00:11",
+        "data": {
+            "customer_name": "Customer 4",
+            "email": "customer4@example.com",
+            "city": "Hyderabad"
+        }
+    },
+    {
+        "event_id": "EVT000002",
+        "customer_id": "CUST0001",
+        "operation": "UPDATE",
+        "source_version": 2,
+        "event_timestamp": "2026-11-15T10:00:02",
+        "data": {
+            "customer_name": "Customer 1",
+            "email": "customer1@example.com",
+            "city": "Hyderabad"
+        }
+    },
+    {
+        "event_id": "EVT000010",
+        "customer_id": "CUST0004",
+        "operation": "INSERT",
+        "source_version": 1,
+        "event_timestamp": "2026-11-15T10:00:10",
+        "data": {
+            "customer_name": "Customer 4",
+            "email": "customer4@example.com",
+            "city": "Hyderabad"
+        }
+    },
+    {
+        "event_id": "EVT000008",
+        "customer_id": "CUST0003",
+        "operation": "UPDATE",
+        "source_version": 2,
+        "event_timestamp": "2026-11-15T10:00:08",
+        "data": {
+            "customer_name": "Customer 3",
+            "email": "customer3@example.com",
+            "city": "Hyderabad"
+        }
+    },
+    {
+        "event_id": "EVT000056",
+        "customer_id": "CUST0018",
+        "operation": "UPDATE",
+        "source_version": 2,
+        "event_timestamp": "2026-11-15T10:00:56",
+        "data": {
+            "customer_name": "Customer 18",
+            "email": "customer18@example.com",
+            "city": "Mumbai"
+        }
+    },
+    {
+        "event_id": "EVT000004",
+        "customer_id": "CUST0002",
+        "operation": "INSERT",
+        "source_version": 1,
+        "event_timestamp": "2026-11-15T10:00:04",
+        "data": {
+            "customer_name": "Customer 2",
+            "email": "customer2@example.com",
+            "city": "Bangalore"
+        }
+    },
+    {
+        "event_id": "EVT000049",
+        "customer_id": "CUST0016",
+        "operation": "INSERT",
+        "source_version": 1,
+        "event_timestamp": "2026-11-15T10:00:49",
+        "data": {
+            "customer_name": "Customer 16",
+            "email": "customer16@example.com",
+            "city": "Bangalore"
+        }
+    },
+    {
+        "event_id": "EVT000006",
+        "customer_id": "CUST0002",
+        "operation": "UPDATE",
+        "source_version": 3,
+        "event_timestamp": "2026-11-15T10:00:06",
+        "data": {
+            "customer_name": "Customer 2",
+            "email": "customer2@example.com",
+            "city": "Bangalore"
+        }
+    },
+    {
+        "event_id": "EVT000079",
+        "customer_id": "CUST0025",
+        "operation": "UPDATE",
+        "source_version": 3,
+        "event_timestamp": "2026-11-15T10:01:19",
+        "data": {
+            "customer_name": "Customer 25",
+            "email": "customer25@example.com",
+            "city": "Hyderabad"
+        }
+    },
+    {
+        "event_id": "EVT000074",
+        "customer_id": "CUST0024",
+        "operation": "INSERT",
+        "source_version": 1,
+        "event_timestamp": "2026-11-15T10:01:14",
+        "data": {
+            "customer_name": "Customer 24",
+            "email": "customer24@example.com",
+            "city": "Bangalore"
+        }
+    },
+    {
+        "event_id": "EVT000029",
+        "customer_id": "CUST0010",
+        "operation": "INSERT",
+        "source_version": 1,
+        "event_timestamp": "2026-11-15T10:00:29",
+        "data": {
+            "customer_name": "Customer 10",
+            "email": "customer10@example.com",
+            "city": "Chennai"
+        }
+    },
+    {
+        "event_id": "EVT000047",
+        "customer_id": "CUST0015",
+        "operation": "UPDATE",
+        "source_version": 3,
+        "event_timestamp": "2026-11-15T10:00:47",
+        "data": {
+            "customer_name": "Customer 15",
+            "email": "customer15@example.com",
+            "city": "Hyderabad"
+        }
+    },
+    {
+        "event_id": "EVT000052",
+        "customer_id": "CUST0017",
+        "operation": "INSERT",
+        "source_version": 1,
+        "event_timestamp": "2026-11-15T10:00:52",
+        "data": {
+            "customer_name": "Customer 17",
+            "email": "customer17@example.com",
+            "city": "Bangalore"
+        }
+    },
+    {
+        "event_id": "EVT000055",
+        "customer_id": "CUST0018",
+        "operation": "INSERT",
+        "source_version": 1,
+        "event_timestamp": "2026-11-15T10:00:55",
+        "data": {
+            "customer_name": "Customer 18",
+            "email": "customer18@example.com",
+            "city": "Chennai"
+        }
+    },
+    {
+        "event_id": "EVT000075",
+        "customer_id": "CUST0024",
+        "operation": "UPDATE",
+        "source_version": 2,
+        "event_timestamp": "2026-11-15T10:01:15",
+        "data": {
+            "customer_name": "Customer 24",
+            "email": "customer24@example.com",
+            "city": "Hyderabad"
+        }
+    },
+    {
+        "event_id": "EVT000069",
+        "customer_id": "CUST0022",
+        "operation": "UPDATE",
+        "source_version": 2,
+        "event_timestamp": "2026-11-15T10:01:09",
+        "data": {
+            "customer_name": "Customer 22",
+            "email": "customer22@example.com",
+            "city": "Mumbai"
+        }
+    },
+    {
+        "event_id": "EVT000072",
+        "customer_id": "CUST0023",
+        "operation": "UPDATE",
+        "source_version": 2,
+        "event_timestamp": "2026-11-15T10:01:12",
+        "data": {
+            "customer_name": "Customer 23",
+            "email": "customer23@example.com",
+            "city": "Chennai"
+        }
+    },
+    {
+        "event_id": "EVT000032",
+        "customer_id": "CUST0010",
+        "operation": "DELETE",
+        "source_version": 4,
+        "event_timestamp": "2026-11-15T10:00:32",
+        "data": {
+            "customer_name": "Customer 10",
+            "email": "customer10@example.com",
+            "city": "Hyderabad"
+        }
+    },
+    {
+        "event_id": "EVT000018",
+        "customer_id": "CUST0006",
+        "operation": "UPDATE",
+        "source_version": 2,
+        "event_timestamp": "2026-11-15T10:00:18",
+        "data": {
+            "customer_name": "Customer 6",
+            "email": "customer6@example.com",
+            "city": "Mumbai"
+        }
+    },
+    {
+        "event_id": "EVT000034",
+        "customer_id": "CUST0011",
+        "operation": "UPDATE",
+        "source_version": 2,
+        "event_timestamp": "2026-11-15T10:00:34",
+        "data": {
+            "customer_name": "Customer 11",
+            "email": "customer11@example.com",
+            "city": "Hyderabad"
+        }
+    },
+    {
+        "event_id": "EVT000019",
+        "customer_id": "CUST0006",
+        "operation": "UPDATE",
+        "source_version": 3,
+        "event_timestamp": "2026-11-15T10:00:19",
+        "data": {
+            "customer_name": "Customer 6",
+            "email": "customer6@example.com",
+            "city": "Bangalore"
+        }
+    },
+    {
+        "event_id": "EVT000059",
+        "customer_id": "CUST0019",
+        "operation": "UPDATE",
+        "source_version": 2,
+        "event_timestamp": "2026-11-15T10:00:59",
+        "data": {
+            "customer_name": "Customer 19",
+            "email": "customer19@example.com",
+            "city": "Chennai"
+        }
+    },
+    {
+        "event_id": "EVT000051",
+        "customer_id": "CUST0016",
+        "operation": "UPDATE",
+        "source_version": 3,
+        "event_timestamp": "2026-11-15T10:00:51",
+        "data": {
+            "customer_name": "Customer 16",
+            "email": "customer16@example.com",
+            "city": "Hyderabad"
+        }
+    },
+    {
+        "event_id": "EVT000064",
+        "customer_id": "CUST0020",
+        "operation": "DELETE",
+        "source_version": 4,
+        "event_timestamp": "2026-11-15T10:01:04",
+        "data": {
+            "customer_name": "Customer 20",
+            "email": "customer20@example.com",
+            "city": "Hyderabad"
+        }
+    },
+    {
+        "event_id": "EVT_INVALID_002",
+        "operation": "INSERT",
+        "source_version": 100,
+        "event_timestamp": "2026-11-15T10:00:00",
+        "data": {}
+    },
+    {
+        "event_id": "EVT000041",
+        "customer_id": "CUST0013",
+        "operation": "UPDATE",
+        "source_version": 3,
+        "event_timestamp": "2026-11-15T10:00:41",
+        "data": {
+            "customer_name": "Customer 13",
+            "email": "customer13@example.com",
+            "city": "Mumbai"
+        }
+    },
+    {
+        "event_id": "EVT000073",
+        "customer_id": "CUST0023",
+        "operation": "UPDATE",
+        "source_version": 3,
+        "event_timestamp": "2026-11-15T10:01:13",
+        "data": {
+            "customer_name": "Customer 23",
+            "email": "customer23@example.com",
+            "city": "Hyderabad"
+        }
+    },
+    {
+        "event_id": "EVT000028",
+        "customer_id": "CUST0009",
+        "operation": "UPDATE",
+        "source_version": 3,
+        "event_timestamp": "2026-11-15T10:00:28",
+        "data": {
+            "customer_name": "Customer 9",
+            "email": "customer9@example.com",
+            "city": "Bangalore"
+        }
+    }
+]

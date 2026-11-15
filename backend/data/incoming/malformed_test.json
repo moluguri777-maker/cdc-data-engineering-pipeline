@@ -1,0 +1,14 @@
+[
+    {
+        "event_id": "TEST001",
+        "customer_id": "CUST_TEST",
+        "operation": "INSERT",
+        "source_version": 1,
+        "event_timestamp": "2026-11-15T10:00:00",
+        "data": {
+            "customer_name": "Test Customer",
+            "email": "test@example.com",
+            "city": "Hyderabad"
+        }
+    },
+]
