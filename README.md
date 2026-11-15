@@ -488,7 +488,7 @@ python -m pytest -v
 
 
 
-\*\*Pranitha Moluguri\*\*
+Moluguri Pranitha
 
 
 
